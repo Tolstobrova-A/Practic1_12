@@ -39,6 +39,8 @@ public class LoaderRunnable implements Runnable{
                 System.out.println("Error loading object path: "+this.path);
                 System.out.println(ex.getMessage());
             }
+        }else{
+                System.out.println("введены некорректные данные!");
         }
     }
     
